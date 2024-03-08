@@ -1,0 +1,102 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   /* font-family: cursive; */
+   font-family: "Source Code Pro";
+}
+body {
+   color: snow;
+   background-color: #111;
+   width: 100%;
+   height: 100vh;
+}
+
+h1 {
+   color: #EABE6C;
+   font-size: 40px;
+}
+
+.main {
+   margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+
+}
+.main .main-content{
+   border: 2px solid grey;
+}
+.main .main-content #container{
+   padding-bottom: 15px;
+}
+
+
+
+.main .main-content #container .timer {
+   width: 700px;
+   height: 300px;
+   /* border: 2px solid rgb(90, 90, 90); */
+   display: flex;
+}
+
+
+.main .main-content #container .timer .cards {
+   background-color:#891652;
+   height: 60%;
+   width: 200px;
+   margin: auto;
+   border-radius: 10px;
+   padding-top: 20px;
+}
+
+.main .main-content #container .timer .cards h2{
+   height: 30%;
+   margin: auto;
+   margin-bottom: 12px;
+   font-size: 35px;
+   width: 90%;
+   color: #240A34;
+}
+
+.main .main-content #container .timer .cards div{
+    margin-bottom: 12px;
+   display: flex;
+   justify-content: center;
+   height: 30%;
+   margin: auto;
+   width: 90%;
+}
+.main .main-content #container .timer .cards div p{
+   font-weight: 600;
+   font-size: 40px;
+    color: #FFEDD8;
+}
+
+
+
+
+
+.main .main-content #container #btns button{
+   width: 90px;
+   font-size:20px;
+   border:none;
+   padding: 3px;
+   border: 1px solid transparent;
+   transition: 100ms;
+   margin-bottom: 10px;
+} 
+
+.main .main-content #container #btns button:hover{
+   color: white;
+   background-color: #111;
+   border: 1px solid snow;
+}
+
+.main .main-content #container #btns button:active{
+   transform: scale(1.1);
+}
